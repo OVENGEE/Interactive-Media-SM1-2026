@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--prevents character bugs-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--site behaves weirdly on phones without this line-->
+
+    <meta name="description" content="This is the lecture for week 2 semantic HTML"> <!--what people see in a search preview-->
+
+    <title>Week 2 semantic HTML and css</title> <!--Browser tab name: important-->
+
+    <link rel="stylesheet" href="./css/style.css" /> <!--link to style sheet: this is how you include css into HTML-->
+
+</head>
+<body><!--This is what appears in the browser-->
+    <header> <!--introductory content-->
+        <nav><!--this is navigation-->
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="#css-basics">Jump to the CSS basics</a></li>
+                <li><a href="https://youtube.com">Youtube</a></li><!--takes us out of our page-->
+                <li><a href="https://youtube.com" target="_blank" rel="noopener">Youtube</a></li><!--keeps our page and opens another tab-->
+
+            </ul>
+        </nav>
+        <h1 id="main_heading">Semantic HTML and CSS Basics</h1> <!--heading-->
+        <p>This is a demo. If we remove the CSS, it should still make sense
+        </p>
+    </header>
+    <main>
+        <section>
+            <h2 class="structure_heading">Headings create structure</h2>
+            <p>
+                Headings define the outline page. They are not for choosing font sizes. CSS controls size. HTML controls meaning.
+            </p>
+            <h3>
+                Dont skip levels
+            </h3>
+            <p>you go h1 to h6</p>
+        </section>
+        <section>
+            <p>This is a paragraph. Paragraphs are block level elements by default</p>
+            <p>Heres a link: <a href="https://youtube.com">youtube</a> and notice it sits in line with the text</p><!--links you to another place-->
+            <p>Here is <strong>strong importance</strong> and here is <em>emphasis</em>. These are semantics not just styling</p>
+        </section>
+
+        <section>
+            <h2>Lists are colllections</h2>
+            <h3>Unordered list</h3>
+            <ul>
+                <li>Apples</li>
+                <li>Oranges</li>
+                <li>Bananas</li>
+            </ul>
+            <h3>Ordered Lists (steps)</h3>
+            <ol>
+                <li>Open Project folder</li>
+                <li>start live server</li>
+                <li>Edit HTML and it refreshes</li>
+            </ol>
+
+        </section>
+
+        <section>
+            <h2>Images</h2>
+            <p>Images must have alt. Alt describes purpose, not appearance</p>
+            <figure>
+                <img src="./img/brush attack.png" alt="A sample placeholder for our demo page">
+                <figcaption>this is a figure with a caption</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Tables</h2>
+            <table>
+                <caption>student marks</caption>
+                <thead>
+                    <tr>
+                        <th>Student</th>
+                        <th>Task</th>
+                        <th>Mark</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Animations</td>
+                        <td>Week 1</td>
+                        <td>78</td>
+                    </tr>
+                    <tr>
+                        <td>Steve</td>
+                        <td>Week1 </td>
+                        <td>68</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            Copyright @ OVENGEE <time datetime="2026-02-23"> 10 Feb 2026</time>
+        </p>
+    </footer>
+</body>
+</html> 

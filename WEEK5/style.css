@@ -1,0 +1,101 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+body
+{
+    background-color:rgb(16, 16, 16);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+header
+{
+    margin-bottom: 30px;
+}
+
+.logo
+{
+    color: red;
+    font-size: 32px;
+}
+
+.section-title
+{
+    margin-bottom: 16px;
+}
+
+.card-container
+{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    background-color: rgb(29, 29, 29);
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+}
+
+.card-badge
+{
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.card-title
+{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.card-genre
+{
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.card-rating
+{
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.card-btn
+{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    width: 200px;
+}
+
+.card-added
+{
+    background-color: red;
+    color: #fff;
+}
+
+.card-hidden
+{
+    display: none;
+}
+
+.card-highlight
+{
+    border: 2px solid red;
+}

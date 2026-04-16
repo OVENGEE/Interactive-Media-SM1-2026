@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #121211;
+    color: white;
+    height: 100vh;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-rows: 64px 1fr 90px;
+    grid-template-columns: 248px 1fr;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "player player";
+}
+
+.top-nav
+{
+    grid-area: header;
+    background-color: black;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo
+{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.sidebar 
+{
+    grid-area: sidebar;
+    background-color: #121211;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.main-content
+{
+    grid-area: main;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.player-bar
+{
+    grid-area: player;
+    background-color: #181818;
+    padding: 0 1rem;
+    border-top: 1px solid #282828;
+
+}

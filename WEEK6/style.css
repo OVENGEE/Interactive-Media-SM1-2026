@@ -1,0 +1,102 @@
+body 
+{
+    font-family: sans-serif;
+    max-width: 800px;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+h1
+{
+    color: blue;
+}
+
+#search-input
+{
+    width: 100%;
+    padding: 13px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.job-card
+{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 12px;
+    border: 1px solid #000;
+}
+
+.job-card h2
+{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.job-card p
+{
+    font-size: 16px;
+    margin: 6px;
+    color: #555;
+}
+
+#post-section
+{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 30px;
+}
+
+.form-group
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label
+{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.form-group input
+{
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    margin-bottom: 12px;
+}
+
+button
+{
+    background-color: rgb(39, 23, 162);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.job-details.hidden
+{
+    display: none;
+}
+
+.job-card.expanded
+{
+    border-color: rebeccapurple;
+}
+
+#category-filter
+{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+
+}
